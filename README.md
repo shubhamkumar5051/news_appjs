@@ -8,20 +8,41 @@ This project is a News Web Application built using HTML, CSS, JS, Bootstrap 5, A
 The News Web Application provides the following functionalities:
 
 1. **Landing Page**: The landing page is the initial page users see when they visit the application.
+   ![Screenshot (96)](https://github.com/shubhamkumar5051/news_appjs/assets/61376618/78306fb0-3b19-4d58-a13d-e919924d2a5b)
 
-2. **Signup**: Users can sign up for an account by providing their email address, username, and password. the data will gte stored inside db.json
 
-3. **Login**: Registered users can log in to access the full functionality of the web application. Users need to enter their credentials (email/username and password) to authenticate themselves.
+3. **Signup**: Users can sign up for an account by providing their email address, username, and password. the data will gte stored inside db.json
+4. 
+![Screenshot (97)](https://github.com/shubhamkumar5051/news_appjs/assets/61376618/8c38075d-5236-42ef-9567-717224f297ad)
+
+5. **Login**: Registered users can log in to access the full functionality of the web application. Users need to enter their credentials (email/username and password) to authenticate themselves.
+
+6. 
    
-5. **Dashboard/Navbar**: Once logged in, users are directed to the dashboard. The dashboard includes a navigation bar that allows users to navigate through different sections of the application, such as home, and categories
+   ![Screenshot (98)](https://github.com/shubhamkumar5051/news_appjs/assets/61376618/cfe87b3c-f8c3-4e04-a7c6-29acfb3e4964)
+
+![Screenshot (99)](https://github.com/shubhamkumar5051/news_appjs/assets/61376618/231ac987-cea9-4600-ade8-2b8aa31dd734)
+
+
+board/Navbar**: Once logged in, users are directed to the dashboard. The dashboard includes a navigation bar that allows users to navigate through different sections of the application, such as home, and categories
+
+
+
+![Screenshot (100)](https://github.com/shubhamkumar5051/news_appjs/assets/61376618/7b984e69-2c81-4b70-929f-cf831e742474)
 
 6. **Filter based on Category**: Users can filter news articles based on different categories, such as sports, entertainment, technology, politics, etc. This feature enables users to view news articles specific to their interests.
 
+
+
+![Screenshot (101)](https://github.com/shubhamkumar5051/news_appjs/assets/61376618/fc42075d-9c22-41a8-af07-f1d0e40d74a2)
+
 7. **Routing**: The application uses routing to enable seamless navigation between different views and sections. This ensures a smooth and intuitive user experience.
 
-8. **User Management**: The web application includes user management functionality, where all data is getting stored inside db.json
+8. 
 
-9. **News Card**: Each news article is displayed as a card. The card includes an image, title, description, and a "Read More" button. Users can click on the "Read More" button to view the full article.
+9. **User Management**: The web application includes user management functionality, where all data is getting stored inside db.json
+
+10. **News Card**: Each news article is displayed as a card. The card includes an image, title, description, and a "Read More" button. Users can click on the "Read More" button to view the full article.
 
 ## Tech Stack
 
