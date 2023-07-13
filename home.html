@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu" ng-class="{ 'show': isMenuOpen }">
+                <li><a ng-href="#/">Home</a></li>
+                <li><a ng-href="#/category/sports">Sports</a></li>
+                <li><a ng-href="#/category/business">Business</a></li>
+                <li><a ng-href="#/category/technology">Technology</a></li>
+                <li><a ng-href="#/category/health">Health</a></li>
+                <li><a ng-href="#/category/entertainment">Entertainment</a></li>
+                <li><a ng-href="#/category/general">General</a></li>
+                <li><a ng-href="#/category/science">Science</a></li>
+                <li><a ng-href="#/signup">SignUp</a></li>
+                <li><a ng-href="#/login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div>
+
+        <h2 class='text-center my-4 ' style="color: white;"></h2>
+    </div>
+    <div>
+        <div class=' row '>
+            <div class="card " style="width: 20rem;" ng-repeat="items in headlines">
+                <img ng-src={{items.urlToImage}} class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{items.title}}</h5>
+                    <p class="card-text">{{items.description}}</p>
+                    <a href="{{items.url}}" target="_blank" class="btn btn-danger btn-sm">Know More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<style>
+    .card-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+    .card-title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+</style>

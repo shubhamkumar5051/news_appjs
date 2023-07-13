@@ -1,0 +1,43 @@
+
+    nav {
+        background-color: #f1f1f1;
+        padding: 10px 20px;
+    }
+
+    .logo a {
+        color: #6b9dec !important;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .menu li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .menu li:last-child {
+        margin-right: 0;
+    }
+
+    .menu li a {
+        color: #397eee !important;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+
+    /* .menu li a:hover {
+        background-color: #ccc;
+    } */
+
+    .menu .show {
+        display: block;
+    }

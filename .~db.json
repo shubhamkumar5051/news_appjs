@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "shubham5051",
+      "email": "shubhamkr5051@gmail.com",
+      "password": "990810",
+      "id": 1
+    },
+    {
+      "username": "revature",
+      "email": "reavture@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "Athira",
+      "email": "athira@gmail.com",
+      "password": "321",
+      "id": 3
+    },
+    {
+      "username": "lamao",
+      "email": "lamao@gmail.com",
+      "password": "11111",
+      "id": 4
+    },
+    {
+      "username": "Training",
+      "email": "reavture@gmail.com",
+      "password": "a",
+      "id": 5
+    },
+    {
+      "username": "shayam",
+      "email": "shayam45@gmail.com",
+      "password": "321",
+      "id": 6
+    },
+    {
+      "username": "shayam",
+      "email": "shayam45@gmail.com",
+      "password": "321",
+      "id": 7
+    }
+  ]
+}
